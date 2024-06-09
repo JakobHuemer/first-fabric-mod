@@ -1,5 +1,6 @@
 package at.huemer.firstfabricmod;
 
+import at.huemer.firstfabricmod.block.ModBlocks;
 import at.huemer.firstfabricmod.item.ModItemGroups;
 import at.huemer.firstfabricmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -18,6 +19,7 @@ public class FirstFabricMod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }

@@ -1,6 +1,7 @@
 package at.huemer.firstfabricmod.item;
 
 import at.huemer.firstfabricmod.FirstFabricMod;
+import at.huemer.firstfabricmod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -23,6 +24,7 @@ public class ModItemGroups {
                                 entries.add( ModItems.RUBY );
                                 entries.add( ModItems.SD_CARD );
                                 entries.add( Items.DIAMOND );
+                                entries.add( ModBlocks.SD_CARD_BLOCK );
 
                             }
                     )

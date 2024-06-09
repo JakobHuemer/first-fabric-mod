@@ -1,5 +1,8 @@
 {
   "item.firstfabricmod.ruby": "Ruby",
   "item.firstfabricmod.sd_card": "SD-Card",
-  "itemgroup.new_items": "New Items"
+
+  "itemgroup.new_items": "New Items",
+
+  "block.firstfabricmod.sd_card_block": "Block of SD-Cards"
 }
